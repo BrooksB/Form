@@ -1,0 +1,272 @@
+
+/* *, *:before, *:after { } */
+
+/*===============================
+Main Styles
+=================================*/
+
+body {
+  color: #2d3945;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto 0 auto;
+  box-sizing: border-box; }
+
+ 
+ form {
+  width: 320px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: none;
+  display: block;
+}
+
+h1,
+p {
+  margin: 0 0 30px 0;
+  text-align: center;
+   }
+
+
+h1 {
+  font-weight:bold;
+  font-size: 1.5em;
+}   
+
+
+
+
+/*===============================
+Title
+=================================*/
+.title {
+  background: #334045 ;
+  color: white;
+  padding: 20px 0 30px 0;
+  text-transform: uppercase;
+
+
+
+}
+
+.title h1 {
+  margin: 10px 0 30px 0;
+  text-align: center;
+   }
+
+
+/*===============================
+Intro
+=================================*/
+.intro {
+  text-align: center;
+  margin: auto;
+  
+}
+
+
+
+/*===============================
+Input
+=================================*/
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  display: block;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: teal;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+
+  width: 100%;
+  border: 1px solid #000;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  opacity: .85;
+}
+
+fieldset {
+  border: none;
+  margin: 0 auto 0 auto;
+  padding: 10px 0 0 0;
+
+}
+
+fieldset p {
+ text-align: left;
+}
+
+legend {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 25px 0;
+  border-top: 2px solid #2d3945;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  
+}
+
+textarea:focus,
+input:focus {
+  outline: 2px solid #2d3945;
+}
+
+
+
+/*===============================
+Footer
+=================================*/
+
+footer {
+  font-style: italic;
+  color: grey;
+}
+
+footer p {
+  text-align: center;
+    font-weight: 300;
+  font-style: italic;
+  border: none;
+  padding: 20px 0;
+
+
+}
+
+/*===============================
+Input Fields Styles
+=================================*/
+textarea:focus,
+input:focus {
+ border: solid 2px #2d3945;
+
+}
+
+
+::-webkit-input-placeholder {
+   text-align: right;
+}
+
+
+/*===============================
+Media Queries
+=================================*/
+@media screen and (min-width: 760px) {
+
+  
+   .wrapper {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-grow: 2;
+    }
+
+    header {
+     margin: auto;
+
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+      width: 60%;
+      margin-bottom: 20px;
+      margin-left: 20px ;
+        }
+
+    textarea {
+      float: none;
+      width: 100%;
+ }
+
+
+
+    form {
+      width: 50%;
+      
+      }
+
+
+    legend {
+      margin: auto;
+      width: 100%;
+    }
+
+    label {
+    float: left;
+    width: 10em;
+    margin-right: 2em;
+    }
+
+    fieldset {
+    float: left;
+    clear: left;
+    width: 100%;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    } 
+
+    fieldset li {
+    float: left;
+    clear: left;
+    width: 100%;
+    padding-bottom: 1em;
+    }
+
+
+
+    fieldset p {
+      text-align: left;  
+
+
+    }
+
+    textarea{
+      margin: auto;
+      width: 90%;
+
+    }
+
+
+
+}
+/*----END------*/
