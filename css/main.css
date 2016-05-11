@@ -1,6 +1,9 @@
 
 /* *, *:before, *:after { } */
+* {
+  box-sizing: border-box;
 
+}
 /*===============================
 Main Styles
 =================================*/
@@ -29,10 +32,12 @@ p {
 
 h1 {
   font-weight:bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }   
 
-
+p {
+  font-size: .95em;
+}
 
 
 /*===============================
@@ -219,9 +224,8 @@ Media Queries
  }
 
 
-
     form {
-      width: 50%;
+      width: 80%;
       
       }
 
@@ -229,19 +233,22 @@ Media Queries
     legend {
       margin: auto;
       width: 100%;
+      text-size: 1.5em;
     }
 
     label {
     float: left;
-    width: 10em;
-    margin-right: 2em;
+    width: 30%;
+    margin-right: 5%;
+    font-size: .75em;
+    
     }
 
     fieldset {
     float: left;
     clear: left;
     width: 100%;
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1.25em 0;
     padding: 0;
     } 
 
