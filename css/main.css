@@ -1,15 +1,15 @@
 
-/* *, *:before, *:after { } */
-* {
-  box-sizing: border-box;
-
+*​:before, *:after {
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
 }
 /*===============================
 Main Styles
 =================================*/
 
 body {
-  color: #2d3945;
+color: #2d3945;
   font-family: 'Merriweather', serif;
   margin: 0 auto 0 auto;
   box-sizing: border-box; }
@@ -36,7 +36,7 @@ h1 {
 }   
 
 p {
-  font-size: .95em;
+  font-size: 1.5em;
 }
 
 
@@ -87,7 +87,7 @@ select {
   margin: 0;
   outline: 0;
   padding: 15px;
-  width: 100%;
+  width: 80%;
   background-color: #e8eeef;
   margin-bottom: 30px;
   text-align: left;
@@ -112,7 +112,7 @@ button {
   text-align: center;
   font-style: normal;
 
-  width: 100%;
+  width: 85%;
   border: 1px solid #000;
   border-width: 1px 1px 3px;
   margin-bottom: 10px;
@@ -124,6 +124,7 @@ button:hover {
 
 fieldset {
   border: none;
+  width: 80%;
   margin: 0 auto 0 auto;
   padding: 10px 0 0 0;
 
@@ -229,25 +230,30 @@ Media Queries
       
       }
 
+      button {
+        width: 80%;
+
+
+      }
 
     legend {
       margin: auto;
       width: 100%;
-      text-size: 1.5em;
+      font-size: 1.5em;
     }
 
     label {
     float: left;
-    width: 30%;
-    margin-right: 5%;
-    font-size: .75em;
+    width: 25%;
+    margin-right: 2%;
+    font-size: 1em;
     
     }
 
     fieldset {
     float: left;
     clear: left;
-    width: 100%;
+    width: 80%;
     margin: 0 0 1.25em 0;
     padding: 0;
     } 
@@ -276,4 +282,4 @@ Media Queries
 
 
 }
-/*----END------*/
+/*----END------*/ 
