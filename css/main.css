@@ -15,6 +15,9 @@ color: #2d3945;
 
  
  form {
+   -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
   width: 320px;
   margin: 10px auto;
   padding: 10px 20px;
@@ -47,6 +50,7 @@ Title
   color: white;
   padding: 20px 0 30px 0;
   text-transform: uppercase;
+  width: 100%;
 
 
 
@@ -110,11 +114,11 @@ button {
   font-size: 18px;
   text-align: center;
   font-style: normal;
-
+  display: block;
   width: 85%;
   border: 1px solid #000;
   border-width: 1px 1px 3px;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
 
 button:hover {
@@ -124,8 +128,10 @@ button:hover {
 fieldset {
   border: none;
   width: 80%;
-  margin: 0 auto 0 auto;
-  padding: 10px 0 0 0;
+  margin: 10px auto;
+  padding: 10px auto;
+  display: block;
+ 
 
 }
 
@@ -136,9 +142,10 @@ fieldset p {
 legend {
   font-size: 1.4em;
   font-weight: bold;
-  padding: 25px 0;
+  padding: 10px 0;
   border-top: 2px solid #2d3945;
   width: 100%;
+
 }
 
 label {
@@ -240,7 +247,7 @@ Media Queries
 
 
     form {
-      width: 80%;
+      width: 100%;
       
       }
 
@@ -251,13 +258,14 @@ Media Queries
       }
 
     legend {
-      margin: auto;
+      margin-bottom: 10px;
       width: 100%;
       font-size: 1.5em;
     }
 
     label {
     float: left;
+    display: inline-block;
     width: 20%;
     margin-right: 2%;
     font-size: 1em;
@@ -267,11 +275,12 @@ Media Queries
   
 
     fieldset {
+
     float: left;
     clear: left;
     width: 80%;
-    margin: 0 0 1em 0;
-    padding: 0;
+    margin: 15px;
+    padding: 45px;
     } 
 
     fieldset li {
@@ -310,6 +319,10 @@ input.checkbox {
     position:relative;
     overflow:hidden;
     top:2px;
+}
+
+.pt {
+  display: inline-block;
 }
 
 }
