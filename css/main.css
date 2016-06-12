@@ -1,348 +1,338 @@
-*​:before, *:after {
- -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
- box-sizing: border-box;
-}
-/*===============================
-Main Styles
-=================================*/
+  *​:before, *:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+  }
+  /*===============================
+  Main Styles
+  =================================*/
 
-body {
+  body {
+  color: #2d3945;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box; }
 
-color: #2d3945;
-  font-family: 'Merriweather', serif;
-  margin: 0 auto 0 auto;
-  box-sizing: border-box; }
-
- 
- form {
-  -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 400px;
-  margin: 10px auto;
-  padding: 10px 20px;
-  background: none;
-  display: block;
-  text-align: left;
-}
-
-h1,
-p {
-    -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0 0 30px 0;
-  text-align: center;
-   }
-
-
-h1 {  -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-weight:bold;
-  font-size: 1.25em;
-}   
-
-p {
-  font-size: 1.5em;
-}
-
-
-/*===============================
-Title
-=================================*/
-.title {
-    -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background: #334045 ;
-  color: white;
-  padding: 20px 0 30px 0;
-  text-transform: uppercase;
-  width: 100%;
-
-
-
-}
-
-.title h1 {
-  margin: 10px 0 30px 0;
-  text-align: center;
-   }
-
-
-/*===============================
-Intro
-=================================*/
-.intro {
-  text-align: center;
-  margin: auto;
-  
-}
-
-
-
-/*===============================
-Input
-=================================*/
-
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea,
-select {
-  display: block;
-  border: none;
-  font-size: 16px;
-  height: auto;
-  margin: 0;
-  outline: 0;
-  padding: 15px;
-  width: 80%;
-  background-color: #e8eeef;
-  margin-bottom: 30px;
-  text-align: left;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 0 2px 4px 0;
-}
-
-select {
-  padding: 6px;
-  height: 32px;
-
-}
-
-button {
-  padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: teal;
-  font-size: 18px;
-  text-align: center;
-  font-style: normal;
-  display: block;
-  width: 85%;
-  border: 1px solid #000;
-  border-width: 1px 1px 3px;
-  margin: 5px auto;
-}
-
-button:hover {
-  opacity: .85;
-}
-
-fieldset {
-  border: none;
-  width: 80%;
-  margin: 10px auto;
-  padding: 10px;
-  display: block;
- 
-
-}
-
-fieldset p {
- text-align: left;
-}
-
-legend {
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 10px 0;
-  border-top: 2px solid #2d3945;
-  width: 100%;
-
-}
-
-label {
-  display: block;
-  margin-bottom: 8px;
-  
-}
-
-textarea:focus,
-input:focus {
-  outline: 2px solid #2d3945;
-}
-
-input[type=radio],
-  input.radio {
-  display: block;  
-  float: left;
-  clear: left;
-  width: auto;
+   
+   form {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: none;
+    display: block;
+    text-align: left;
   }
 
-    input[type=checkbox],
-  input.checkbox {
-  display: block;
-  float: left;
-  clear: left;
-  width: auto;
+  h1,
+  p {
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+    text-align: center;
+     }
+
+
+  h1 {  
+    box-sizing: border-box;
+    font-weight:bold;
+    font-size: 1.25em;
+  }   
+
+  p {
+    font-size: 1.5em;
   }
 
 
-/*===============================
-Footer
-=================================*/
+  /*===============================
+  Title
+  =================================*/
+  .title {
 
-footer {
-  font-style: italic;
-  display: block;
-  color: grey;
-  margin: 10px auto;
-}
-
-footer p {
-  text-align: center;
-  font-weight: 300;
-  font-style: italic;
-  border: none;
-  padding: 30px 0;
+    box-sizing: border-box;
+    background: #334045 ;
+    color: white;
+    padding: 20px 0 30px 0;
+    text-transform: uppercase;
+    width: 100%;
 
 
-}
 
-/*===============================
-Input Fields Styles
-=================================*/
-textarea:focus,
-input:focus {
- border: solid 2px #2d3945;
+  }
 
-}
+  .title h1 {
+    margin: 10px 0 30px 0;
+    text-align: center;
+     }
 
 
-::-webkit-input-placeholder {
-   text-align: right;
-}
-
-
-/*===============================
-Media Queries
-=================================*/
-@media screen and (min-width: 760px) {
-
-  
-   .wrapper {
-    max-width: 900px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /*===============================
+  Intro
+  =================================*/
+  .intro {
+    text-align: center;
     margin: auto;
-    flex-grow: 2;
+    
+  }
+
+
+
+  /*===============================
+  Input
+  =================================*/
+
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    display: block;
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 80%;
+    background-color: #e8eeef;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 2px 4px 0;
+  }
+
+  select {
+    padding: 6px;
+    height: 32px;
+
+  }
+
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: teal;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    display: block;
+    width: 85%;
+    border: 1px solid #000;
+    border-width: 1px 1px 3px;
+    margin: 5px auto;
+  }
+
+  button:hover {
+    opacity: .85;
+  }
+
+  fieldset {
+    border: none;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+   
+
+  }
+
+  fieldset p {
+   text-align: left;
+  }
+
+  legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 0;
+    border-top: 2px solid #2d3945;
+    width: 100%;
+
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    
+  }
+
+  textarea:focus,
+  input:focus {
+    outline: 2px solid #2d3945;
+  }
+
+  input[type=radio],
+    input.radio {
+    display: block;  
+    float: left;
+    clear: left;
+    width: auto;
     }
 
-    header {
-     margin: auto;
-
+      input[type=checkbox],
+    input.checkbox {
+    display: block;
+    float: left;
+    clear: left;
+    width: auto;
     }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea,
-    select {
-      width: 60%;
-      margin-bottom: 20px;
-      margin-left: 20px ;
+
+  /*===============================
+  Footer
+  =================================*/
+
+  footer {
+    font-style: italic;
+    display: block;
+    color: grey;
+    margin: 10px auto;
+  }
+
+  footer p {
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    border: none;
+    padding: 30px 0;
+
+
+  }
+
+  /*===============================
+  Input Fields Styles
+  =================================*/
+  textarea:focus,
+  input:focus {
+   border: solid 2px #2d3945;
+
+  }
+
+
+
+
+  /*===============================
+  Media Queries
+  =================================*/
+  @media screen and (min-width: 760px) {
+
+    
+     .wrapper {
+      max-width: 900px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+      flex-grow: 2;
+      }
+
+      header {
+       margin: auto;
+
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea,
+      select {
+        width: 60%;
+        margin-bottom: 20px;
+        margin-left: 20px ;
+          }
+
+      textarea {
+        float: none;
+        width: 100%;
+   }
+
+
+      form {
+        width: 100%;
+        
         }
 
-    textarea {
-      float: none;
-      width: 100%;
- }
+        button {
+          width: 80%;
 
 
-    form {
-      width: 100%;
+        }
+
+      legend {
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 1.5em;
+      }
+
+      label {
+      float: left;
+      display: inline-block;
+      width: 20%;
+      margin-right: 2%;
+      font-size: 1em;
       
       }
 
-      button {
-        width: 80%;
+    
+
+      fieldset {
+      clear: left;
+      float: left;
+      clear: left;
+      width: 80%;
+      margin: 15px;
+      padding: 45px;
+      } 
+
+      fieldset li {
+      display: inline-block;  
+      float: left;
+      clear: left;
+      width: 70%;
+      padding-bottom: 1em;
+      }
+
+
+
+      fieldset p {
+        text-align: left;  
+        font-size: 1em;
 
 
       }
 
-    legend {
-      margin-bottom: 10px;
-      width: 100%;
-      font-size: 1.5em;
-    }
+      textarea{
+        margin: auto;
+        width: 90%;
 
-    label {
-    float: left;
+      }
+
+  input[type="checkbox"], 
+  input[type="radio"],
+  input.radio,
+  input.checkbox {
+      display: block;
+      width:13px;
+      height:13px;
+      padding:0;
+      margin:0;
+      position:relative;
+      overflow:hidden;
+      top:2px;
+  }
+
+  .pt {
     display: inline-block;
-    width: 20%;
-    margin-right: 2%;
-    font-size: 1em;
-    
-    }
+  }
 
-  
-
-    fieldset {
+  footer {
+    display:block;
+    margin: 15px auto;
     clear: left;
-    float: left;
-    clear: left;
-    width: 80%;
-    margin: 15px;
-    padding: 45px;
-    } 
 
-    fieldset li {
-    display: inline-block;  
-    float: left;
-    clear: left;
-    width: 70%;
-    padding-bottom: 1em;
-    }
+  }
 
 
-
-    fieldset p {
-      text-align: left;  
-      font-size: 1em;
-
-
-    }
-
-    textarea{
-      margin: auto;
-      width: 90%;
-
-    }
-
-input[type="checkbox"], 
-input[type="radio"],
-input.radio,
-input.checkbox {
-    display: block;
-    width:13px;
-    height:13px;
-    padding:0;
-    margin:0;
-    position:relative;
-    overflow:hidden;
-    top:2px;
-}
-
-.pt {
-  display: inline-block;
-}
-
-footer {
-  display:block;
-  margin: 15px auto;
-  clear: left;
-
-}
-
-
-}
-/*----END------*/ 
+  }
+  /*----END------*/ 
