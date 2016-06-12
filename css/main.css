@@ -121,7 +121,7 @@
     width: 85%;
     border: 1px solid #000;
     border-width: 1px 1px 3px;
-    margin: 5px auto;
+    margin: 0 auto;
   }
 
   button:hover {
@@ -240,6 +240,7 @@
         width: 60%;
         margin-bottom: 20px;
         margin-left: 20px ;
+        margin-right: 50px;
           }
 
       textarea {
@@ -250,6 +251,8 @@
 
       form {
         width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
         
         }
 
