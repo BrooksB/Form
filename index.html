@@ -109,36 +109,32 @@
           <legend>Newsletter</legend>
           <p>Select the newsletters you would like to receive</p> 
             
-            <span><input type="checkbox" value="Html_news" name="user_html" id="user_html">
-            <label for="user_html">HTML News</label></span><br> 
+            <input type="checkbox" id="html" value="html_news" name="user_news"><label for="html">HTML News</label><br>
 
-            <span><input type="checkbox"  value="CSS_news" name="user_css" id="css_news">
-            <label for="css_news">CSS News</label></span><br>  
-   
-            <span><input type="checkbox"  value="JS_news" name="user_js" id="js_news">
-            <label for="js_news">JS News</label></span>  
+           <input type="checkbox" id="css" value="css_news" name="user_news"><label for="css">CSS News</label><br>
 
+          <input type="checkbox" id="javascript" value="html_news" name="user_news"><label for="javascript">Javascript News</label>
        </fieldset>
       
         <fieldset>
-          <p>Newsletter Format</p>
+          <legend>Newsletter Format</legend>  
 
-            <span><input class="htmlR" type="radio" value="Radio1" name="Radio1">
-            <label>Html</label></span><br>  
+            <input class="html" id="html_r" type="radio" value="html" name="Radio1"><label for="html">Html</label><br>  
+           
 
-            <span><input class="PT" type="radio" value="Radio1" name="Radio1"> 
-            <label>Plaintext</label></span>
-
+            <input  class="plaintext" id="plaintext_r" type="radio" value="plaintext" name="Radio1"><label for="plaintext_r">Plaintext</label> 
+            
         </fieldset> 
         
         <fieldset>
-          <p>Other topics you'd like to hear about</p>
-          <textarea  name="user_input" id="input"></textarea>
+          <legend>Other topics you'd like to hear about</legend>
+          <textarea  name="user_input" id="input"></textarea>    
         </fieldset>  
     
-        <fieldset>  
+       
         <button  type="submit" id="signup">Sign Up</button>
-        </fieldset>
+        
+        
         
       </form>
 
@@ -149,3 +145,4 @@
 
 
 </html>
+
